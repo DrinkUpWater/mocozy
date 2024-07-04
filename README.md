@@ -1,4 +1,4 @@
-# ROOMMA
+# Mocozy
 <div align="center"><img style="width:300px; height:300px;" src="https://github.com/DrinkUpWater/semiProject/assets/86289260/223b5007-6f5a-432c-86aa-fe058a4345571"></div>
 
 
