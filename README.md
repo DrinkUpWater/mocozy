@@ -1,5 +1,5 @@
 # Mocozy
-<div align="center"><img style="width:300px; height:300px;" src="https://github.com/DrinkUpWater/semiProject/assets/86289260/223b5007-6f5a-432c-86aa-fe058a4345571"></div>
+<div align="center"><img style="width:300px; height:300px;" src="https://github.com/DrinkUpWater/mocozy/webapp/resources/teo/img/mocozy_main.PNG"></div>
 
 
 # 프로젝트 소개
