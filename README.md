@@ -1,46 +1,13 @@
 # Mocozy
-<div align="center"><img style="width:300px; height:300px;" src="https://github.com/DrinkUpWater/mocozy/webapp/resources/teo/img/mocozy_main.PNG"></div>
-
+<div align="center"><img src="https://github.com/DrinkUpWater/mocozy/assets/160109706/01738b76-4439-4584-b192-fbc08eb08a56"></div>
 
 # 프로젝트 소개
 
-**스페이스 클라우드 사이트를 참고한 사용자간의 다양한 공간 공유  플랫폼 사이트**
-- 사용자는 호스트와 게스트의 역할을 가질 수 있으며 호스트는 공간을 등록하고 게스트는 호스트가 등록한 공간을 예약 할 수 있다
+**모꼬지 (모임의 옛말 )  “여러 사람이 모여 놀이판을 여는것”**
+
+
+  꼬지는 같은 동네에서 비슷한 나이대와 취미를 가진 사람들을 쉽게 만날 수 있게 해주고, 사용자는 관심사와 위치 기반으로 모임을 탐색하고, 새로운 관계를 만들 수 있게 돕습니다. 간편한 모임 생성과 관리 기능을 통해 누구나 손쉽게 모임을 주최하고 참여할 수 있습니다.
 <br><br>
-
-        
-# 팀원 구성 및 역할
-
-<div>
-   <ul style="display:flex;  justify-content:space-between; ">
-    <li>
-        <h3>조장</h3>
-        <div><img src="https://github.com/DrinkUpWater/semiProject/assets/86289260/c1b017a9-67e7-480c-9625-c2a3adc5e3a1"></div>
-        <div>신형우</div><br>
-        <div>공간 상세페이지,공간 예약기능,댓글기능,찜기능</div>
-    </li><br>
-    <li>
-        <h3>형상관리자</h3>
-        <div><img src="https://github.com/DrinkUpWater/semiProject/assets/86289260/f194d1d2-85af-4397-bc29-7eb8bb11dfd6"></div>
-        <div>박성호</div><br>
-        <div>메인페이지,호스트 페이지,공간 등록기능,공간 수정기능</div>
-    </li><br>
-    <li>
-        <h3>DB관리자</h3>
-        <div><img src="https://github.com/DrinkUpWater/semiProject/assets/86289260/4845e3ca-eae7-4eb8-bc44-2b927bb66b2a"></div>
-        <div>이경주</div><br>
-        <div>게시판 페이지,게시판 등록기능 , 게시판 댓글 기능</div>
-    </li><br>
-    <li>
-        <h3>이슈관리자</h3>
-        <div><img src="https://github.com/DrinkUpWater/semiProject/assets/86289260/bd97b5a0-81af-433e-b5e2-8a877b751e3b"></div>
-        <div>함유철</div><br>
-        <div>로그인페이지, 회원가입페이지, 예약리스트 페이지, </div>
-    </li>
-    </ul>
-</div>
-<br><br>
-
 
 <div><h1>개발환경</h1></div>
 
@@ -67,29 +34,24 @@
 <h3>백앤드</h3>
 <img src="https://img.shields.io/badge/JAVA-1071D3?style=for-the-badge&logo=JOPLIN&logoColor=white">
 <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=JSON&logoColor=white">
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
 </div>
 
 <br>
 <div>
     <h3>데이터베이스<h3>
-    <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white">
+    <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
 </div>
 <br><br>
 
 
 # 개발 기간
-- 개발 기획 :2024-03-13~2024.03.29
-    - UI 설계
-     <div>
-        <img src="#" alt="피그마">
-     </div>
-    - DB 설계
-     <div>
-        <img scr="#" alt="erd클라우드">
-     </div>
-
-- 개발 기간 : 2024-04-01~2024.04-28
-    - 1차 개발 기간 : 2024-04-01 ~ 2024-04-17
+- 개발 기획 :2024-04-29~2024.05.14
+    - UI 설계  : 피그마
+    - DB 설계  : erd클라우드
+      
+- 개발 기간 : 2024-05-16~2024.06-21
+    - 1차 개발 기간 : 2024-05-16 ~ 2024-05-30
         - UI 개발
             - 메인
                 - 메인페이지
@@ -101,43 +63,26 @@
                 - 로그인페이지
                 - 마이페이지
                 - 회원탈퇴페이지
-                - 예약리스트 페이지
-
-            - 공간
-                - 공간등록페이지
-                - 공간상세페이지
-                - 내공간 페이지
-                - 찜한공간 페이지
+                - 찜 기능
+                - 리뷰 기능
+            - 모임
+                - 모임 등록 페이지
+                - 모임 상세 페이지
+                - 내 모임 페이지
+                - 모임 참여 요청, 수락/거절 페이지
             - 게시판
                 - 공지사항 페이지
-            
-            
 
+    - 2차 개발 기간 : 2024-05-31 ~ 2024-06-21
+        추가 기능 구현, API
 
-    - 2차 개발 기간 : 2024-04-18 ~ 2024-04-25
-        기능구현,서버구축
-
-
-        - 페이지연결
-        - 컨트롤러
-          - 메인 컨트롤러 -> 메인페이지
-          - 회원가입페이지 컨트롤러 ->회원가입페이지
-          - 회원가입컨트롤러 ->성공?main리다이렉트:회원가입 리다이렉트
-          - 로그인페이지컨트롤러 ->로그인페이지
-          - 로그인컨트롤러 ->성공?main리다이렉트:로그인 리다이렉트
-          - 회원수정컨트롤러 ->회원수정
-
-          - 공간 상세컨트롤러 -> 공간상세페이지
-          - 예약 컨트롤러 -> 예약리스트페이지
-          - 공간 등록 컨트롤러 -> 공간등록
-          - 공간 삭제 컨트롤러 - >공간삭제
-    
-
-        ```
-        비동기처리
-         리뷰기능 ,QandA게시판 
-        
-        ``` 
+        - 카카오/네이버 로그인 
+        - 지도 API
+        - 카카오페이 결제 기능
+        - 포인트 충전 / 출금 기능
+        - 채팅 기능
+        - 관리자 페이지
+        - 기능 테스트
 <div>
 
 
@@ -173,21 +118,3 @@
   - 공지사항 기능
 <br><br>
 
-
-# 이슈
-  - git 충돌
-    -  mapper.xml파일 충돌
-    -  주제변경
-    -  
-
-<h3>공지사항</h3>
-
-- 공지사항기능
-
-</div>
-
-
-<div>
-    <img>
-
-</div>
